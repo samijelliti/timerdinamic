@@ -5,7 +5,8 @@ import './timer.css'
 
 
 class Timer extends Component {
-  
+   
+     
     render(){ 
        const {time}=this.props
        let heure=Math.trunc(time/3600000)
